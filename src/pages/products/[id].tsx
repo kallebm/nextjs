@@ -41,7 +41,7 @@ const Product: NextPage = (props: {
   return (
     <div>
       <Head>
-        <h1>{props.product!.name}</h1>
+        <title>{props.product!.name}</title>
         <meta name="description" content={props.product!.description} />
         <link rel="icon" href="/favicon.ico" />
       </Head>
